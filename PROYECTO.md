@@ -64,6 +64,8 @@ Ejemplo del menú:
 Opcion:
 ```
 
+// Se hace con un while para que se repita todo el ciclo, mientras que la opcion seleccionada no ssea SALIR
+
 ### 2.4 Modo de prueba
 
 `include/escenario_prueba.h` trae 15 marcadores fijos. El programa ofrece simular en modo aleatorio o de prueba. Los marcadores se asignan por orden de registro: el equipo 1 usa los resultados de Aguilas en los ejemplos, el equipo 2 los de Halcones, y así sucesivamente.
