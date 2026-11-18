@@ -11,6 +11,6 @@
 #include "utilerias.h"
 
 void imprimirConsulta() {
-    std::string nombre = leerCadena("Nombbre del equipo: ");
+    std::string nombre = leerCadena("Nombre del equipo: ");
     
 }

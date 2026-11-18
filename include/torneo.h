@@ -36,6 +36,11 @@ const int PUNTOS_DERROTA = 0;
 
 // ---------- Registros (equipo) ----------
 // Escriban aqui los struct del torneo.
+struct Equipo{
+   std::string nombre;
+
+};
+
 
 // ---------- Funciones comunes (equipo) ----------
 // Escriban aqui las funciones que varios modulos comparten.
