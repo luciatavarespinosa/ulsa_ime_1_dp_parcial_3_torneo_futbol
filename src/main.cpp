@@ -51,10 +51,10 @@ int opcion;
 
             break;
         case 2:
-            std::cout<< "El resultado de la resta es: ";
+            std::cout<< "Equipos Registrados: ";
             break;
         case 3:
-            std::cout<< "El resultado de la multiplicacion es: ";
+            std::cout<< "Simulación de torneo ";
             break;
         case 9:
                 std::cout << "Saliendo del sistema...\n";
