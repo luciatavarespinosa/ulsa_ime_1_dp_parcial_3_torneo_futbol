@@ -9,12 +9,13 @@
 //   .\torneo.exe
 //
 // Lean PROYECTO.md antes de escribir codigo.
-
+#pragma once
 #include <iostream>
+#include <string>
 
 #include "utilerias.h"
 #include "torneo.h"
-#include <string>
+
 // TODO: incluyan aqui el archivo .h de cada modulo.
 
 int main() {
@@ -22,7 +23,10 @@ int main() {
     //       No usen variables globales.
     std::string nombre;
     std::cout<< "Ingresa nombre";
+    std::cin>> nombre;
 std::cout<<"Hola "<<nombre;
+std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol ";
+
     return 0;
 }
 
