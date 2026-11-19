@@ -28,7 +28,6 @@ int main() {
 std::cout<<"Hola "<<nombre ;
 std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol ";
 
-
 while(true){
 
 int opcion;
@@ -52,6 +51,8 @@ int opcion;
             break;
         case 2:
             std::cout<< "Equipos Registrados: ";
+            void mostrarEquipos (const std::string Equipos[], int totalEquipos );
+            std::cout<< "---Equipos Registrados--- \n" ;
             break;
         case 3:
             std::cout<< "Simulación de torneo ";
