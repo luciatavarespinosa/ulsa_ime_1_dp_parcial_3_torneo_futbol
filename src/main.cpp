@@ -9,7 +9,7 @@
 //   .\torneo.exe
 //
 // Lean PROYECTO.md antes de escribir codigo.
-#pragma once
+
 #include <iostream>
 #include <string>
 
@@ -22,10 +22,10 @@ int main() {
     // TODO: declaren aqui los datos del torneo.
     //       No usen variables globales.
     std::string nombre;
-    std::cout<< "Ingresa nombre";
+    std::cout<< "Ingresa nombre: ";
     std::cin>> nombre;
 std::cout<<"Hola "<<nombre;
-std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol ";
+std::cout<<" ,Bienvenido al Sistema de Gestion del Torneo de Futbol ";
 
     return 0;
 }
