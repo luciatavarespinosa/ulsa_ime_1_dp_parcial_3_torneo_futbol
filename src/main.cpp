@@ -12,6 +12,7 @@
 
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 #include "utilerias.h"
 #include "torneo.h"
@@ -24,11 +25,51 @@ int main() {
     std::string nombre;
     std::cout<< "Ingresa tu nombre: ";
     std::cin>> nombre;
-std::cout<<"Hola "<<nombre;
+std::cout<<"Hola "<<nombre ;
 std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol ";
 
-    return 0;
+
+while(true){
+
+int opcion;
+    std::cout<<"Selecciona una opción: ";
+        std::cout<< "1.Registrar Equipo \n";
+        std::cout<< "2.Mostrar equipos \n";
+        std::cout<< "3.Simular torneo \n";
+        std::cout<< "4.Mostrar resultados \n";
+        std::cout<< "5.Mostrar tabla de posiciones \n";
+        std::cout<< "6.Mostrar Campeón \n";
+        std::cout<< "7.Consultar Equipo \n";
+        std::cout<< "8. Mostrar matriz de enfrentamientos \n";
+        std::cout<< "9.Salir \n";
+        std::cout<< "Ingresa tu opción: ";
+     std::cin>> opcion;
+
+    switch(opcion){
+        case 1:
+           std::cout<< "Ingrese nombre del equipo a registrar: ";
+
+            break;
+        case 2:
+            std::cout<< "El resultado de la resta es: ";
+            break;
+        case 3:
+            std::cout<< "El resultado de la multiplicacion es: ";
+            break;
+        case 9:
+                std::cout << "Saliendo del sistema...\n";
+                break;
+            default:
+                std::cout << "Opcion no valida. Intenta de nuevo.\n";
+                break;
+        
+            } while (opcion != 9);
+    
+   return 0;
+
 }
+   
+  
 
     // TODO: menu que se repite hasta elegir "Salir".
     //       Una opcion que no existe se rechaza con un mensaje.
