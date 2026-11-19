@@ -14,12 +14,17 @@
 
 #include "utilerias.h"
 #include "torneo.h"
-
+#include <string>
 // TODO: incluyan aqui el archivo .h de cada modulo.
 
 int main() {
     // TODO: declaren aqui los datos del torneo.
     //       No usen variables globales.
+    std::string nombre;
+    std::cout<< "Ingresa nombre";
+std::cout<<"Hola "<<nombre;
+    return 0;
+}
 
     // TODO: menu que se repite hasta elegir "Salir".
     //       Una opcion que no existe se rechaza con un mensaje.
@@ -42,5 +47,4 @@ int main() {
     // Paso 11: ejecutar de nuevo el programa en modo aleatorio y mostrar
     //          resultados, tabla y campeon.
 
-    return 0;
-}
+ 

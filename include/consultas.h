@@ -12,5 +12,5 @@
 
 void imprimirConsulta() {
     std::string nombre = leerCadena("Nombre del equipo: ");
-    
+
 }

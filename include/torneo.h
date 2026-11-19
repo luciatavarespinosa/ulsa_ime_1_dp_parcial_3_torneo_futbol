@@ -39,7 +39,6 @@ const int PUNTOS_DERROTA = 0;
 struct Equipo{
    std::string nombre;
 };
-const int 
 
 // ---------- Funciones comunes (equipo) ----------
-// Escriban aqui las funciones que varios modulos comparten.
+// Escriban aqui las funciones que varios modulos comparten
