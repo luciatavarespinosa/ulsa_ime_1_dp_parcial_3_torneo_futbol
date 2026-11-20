@@ -18,15 +18,21 @@
 #include "torneo.h"
 
 // TODO: incluyan aqui el archivo .h de cada modulo.
+#include "clasificacion_campeon.h"
+#include "consultas.h"
+#include "escenario_prueba.h"
 
 int main() {
     // TODO: declaren aqui los datos del torneo.
     //       No usen variables globales.
+Equipo equipos [MAX_EQUIPOS];
+int totalEquipos = 0;
+
     std::string nombre;
     std::cout<< "Ingresa tu nombre: ";
     std::cin>> nombre;
-std::cout<<"Hola "<<nombre ;
-std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol ";
+std::cout<<"Hola \n"<<nombre ;
+std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol \n";
 
 while(true){
 
