@@ -12,11 +12,17 @@
 #include "torneo.h"
 
 inline std::string aMinusculas(std::string texto) {
-    for (std::size_t i = 0; i < texto.size(); i++) {
-        texto[i] = static_cast<char>(std::tolower(static_cast<unsigned char>(texto[i])));
+    for (int i = 0; i < (int) texto.length(); i++) {
+        if (texto [i] >= 'A' && texto [i] < 'Z') {
+            texto [i] = texto [i] + 32;
+        } 
     }
     return texto;
 }
+
+inline const Equipo* buscarEquipo (const Equipo* equipos, int totalEquipos, const std::string buscando = aMinusculas(nombre)); 
+
+
 void imprimirConsulta() {
     std::string nombre = leerCadena("Nombre del equipo: ");
 
