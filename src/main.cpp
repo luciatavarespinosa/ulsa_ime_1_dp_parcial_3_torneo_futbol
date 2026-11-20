@@ -28,6 +28,9 @@ int main() {
 Equipo equipos [MAX_EQUIPOS];
 int totalEquipos = 0;
 
+Partido partidos [TOTAL_PARTIDOS];
+int totalPartidos = 0;
+
     std::string nombre;
     std::cout<< "Ingresa tu nombre: ";
     std::cin>> nombre;
@@ -37,13 +40,13 @@ std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol \n";
 while(true){
 
 int opcion;
-    std::cout<<"Selecciona una opción: ";
+    std::cout<<"Selecciona una opcion: ";
         std::cout<< "1.Registrar Equipo \n";
         std::cout<< "2.Mostrar equipos \n";
         std::cout<< "3.Simular torneo \n";
         std::cout<< "4.Mostrar resultados \n";
         std::cout<< "5.Mostrar tabla de posiciones \n";
-        std::cout<< "6.Mostrar Campeón \n";
+        std::cout<< "6.Mostrar Campeon \n";
         std::cout<< "7.Consultar Equipo \n";
         std::cout<< "8. Mostrar matriz de enfrentamientos \n";
         std::cout<< "9.Salir \n";
