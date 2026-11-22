@@ -37,7 +37,6 @@ int totalPartidos = 0;
 std::cout<<"Hola \n"<<nombre ;
 std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol \n";
 
-while(true){
 
 int opcion = 0;
     while (opcion != 9) {
