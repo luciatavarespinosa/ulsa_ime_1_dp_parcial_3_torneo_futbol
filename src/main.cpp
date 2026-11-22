@@ -73,7 +73,7 @@ int opcion;
                 std::cout << "Opcion no valida. Intenta de nuevo.\n";
                 break;
         
-            } while (opcion != 9);
+            } 
     
    return 0;
 
