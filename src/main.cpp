@@ -39,8 +39,9 @@ std::cout<<"Bienvenido al Sistema de Gestion del Torneo de Futbol \n";
 
 while(true){
 
-int opcion;
-    std::cout<<"Selecciona una opcion: ";
+int opcion = 0;
+    while (opcion != 9) {
+        std::cout << "\nSelecciona una opcion:\n";
         std::cout<< "1.Registrar Equipo \n";
         std::cout<< "2.Mostrar equipos \n";
         std::cout<< "3.Simular torneo \n";
@@ -73,9 +74,7 @@ int opcion;
                 std::cout << "Opcion no valida. Intenta de nuevo.\n";
                 break;
         
-            } int opcion = 0;
-    while (opcion != 9) {
-        std::cout << "\nSelecciona una opcion:\n";
+            } 
     
    return 0;
 
