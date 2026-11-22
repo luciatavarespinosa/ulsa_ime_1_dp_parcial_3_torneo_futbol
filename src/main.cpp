@@ -73,7 +73,9 @@ int opcion;
                 std::cout << "Opcion no valida. Intenta de nuevo.\n";
                 break;
         
-            } 
+            } int opcion = 0;
+    while (opcion != 9) {
+        std::cout << "\nSelecciona una opcion:\n";
     
    return 0;
 
