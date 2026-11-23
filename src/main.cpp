@@ -54,8 +54,9 @@ int main(){
 
         switch (opcion) {
             case 1:
-                std::cout << "Ingrese nombre del equipo a registrar: ";
-                break;
+                registrarEquipo(equipos, totalEquipos); 
+                break;   
+                
             case 2:
                 std::cout << "Equipos Registrados:\n";
                 void mostrarEquipos (const std::string Equipos[], int totalEquipos );
