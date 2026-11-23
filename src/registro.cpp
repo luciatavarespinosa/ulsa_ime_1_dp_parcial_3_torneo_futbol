@@ -20,3 +20,9 @@ Usamos getline en lugar de cin por si el equipo tiene espacios
 std::cin.ignore(); // (Nota: Si se salta la lectura en la 
 terminal, descomenta esta línea) 
 std::getline(std::cin, nuevoNombre);
+
+ // 
+3. Registrar el nombre en el espacio disponible (la posición de 
+totalEquipos) 
+arregloEquipos[totalEquipos].nombre = nuevoNombre; 
+    // 
