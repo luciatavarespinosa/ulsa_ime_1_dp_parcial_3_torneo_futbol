@@ -26,3 +26,11 @@ std::getline(std::cin, nuevoNombre);
 totalEquipos) 
 arregloEquipos[totalEquipos].nombre = nuevoNombre; 
     // 
+4. Inicializar todas las estadísticas en 0 para empezar limpios 
+arregloEquipos[totalEquipos].PTS = 0; // Puntos 
+arregloEquipos[totalEquipos].PJ = 0;  // Partidos Jugados 
+arregloEquipos[totalEquipos].PG = 0;  // Partidos Ganados 
+arregloEquipos[totalEquipos].PE = 0;  // Partidos Empatados 
+arregloEquipos[totalEquipos].PP = 0;  // Partidos Perdidos 
+arregloEquipos[totalEquipos].GF = 0;  // Goles a Favor 
+arregloEquipos[totalEquipos].GC = 0;  // Goles en Contra
