@@ -1,0 +1,1 @@
+void registrarEquipo(Equipo arregloEquipos[], int 7totalEquipos);
