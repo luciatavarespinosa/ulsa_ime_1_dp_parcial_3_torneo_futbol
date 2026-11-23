@@ -34,3 +34,9 @@ arregloEquipos[totalEquipos].PE = 0;  // Partidos Empatados
 arregloEquipos[totalEquipos].PP = 0;  // Partidos Perdidos 
 arregloEquipos[totalEquipos].GF = 0;  // Goles a Favor 
 arregloEquipos[totalEquipos].GC = 0;  // Goles en Contra
+arregloEquipos[totalEquipos].DIF = 0; // Diferencia de Goles 
+    // 
+5. ¡Aumentar el contador oficial del torneo! 
+totalEquipos++; 
+std::cout << "\n¡Equipo '" << nuevoNombre << "' registrado con 
+exito!\n";
