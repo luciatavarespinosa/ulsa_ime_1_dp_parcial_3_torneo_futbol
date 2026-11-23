@@ -1,1 +1,1 @@
-void registrarEquipo(Equipo arregloEquipos[], int 7totalEquipos);
+void registrarEquipo(Equipo arregloEquipos[], int &totalEquipos);
